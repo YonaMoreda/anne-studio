@@ -12,9 +12,9 @@ let houseModel: Group;
 const scene = new THREE.Scene();
 
 //Camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000)
+const camera = new THREE.PerspectiveCamera(50, window.innerWidth/window.innerHeight, 0.1, 1000)
 scene.add(camera)
-camera.position.z = 6
+camera.position.z = 10
 camera.lookAt(0, 0, 0)
 
 //Controls
@@ -57,7 +57,7 @@ controls.movementSpeed = 0;
 const gltfLoader = new GLTFLoader();
 gltfLoader.load('/anne-studio/src/assets/house/scene.gltf', (gltfScene) => {
     houseModel = gltfScene.scene;
-    houseModel.position.set(-2, -3, -2);
+    houseModel.position.set(-1, -1, -2);
     houseModel.scale.set(.5, .5, .5);
     houseModel.rotation.x = 0.3;
     houseModel.rotation.y = Math.PI / 5;
