@@ -21,3 +21,13 @@
     font-size: 2rem;
     line-height: 2;
 }
+
+.navbar-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 4px 4px #002082;
+}
