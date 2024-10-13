@@ -1,0 +1,23 @@
+.anne-header {
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 20%;
+    padding-left: 4%;
+}
+
+.anne-intro {
+    text-align: left;
+    padding-left: 4%;
+}
+
+.anne-whoami {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.vert-navbar {
+    padding-left: 4%;
+    padding-top: 3%;
+    font-size: 2rem;
+    line-height: 2;
+}
