@@ -4,7 +4,7 @@ import ProfilePicture from  '../../public/generic_pp.png'
 function Home() {
 
   return (
-    <>
+    <div className='home'>
       <div className='anne-header'>Anne Architectural Studio</div>
       <div className='anne-intro'>
           <div className='anne-profile-pic-containrer'>
@@ -19,7 +19,7 @@ function Home() {
           <div className='navbar-link'>Contact</div>
           <div className='navbar-link' style={{border: '.1px solid whitesmoke', borderRadius: '10px', width: "150%", textAlign: 'center', marginTop: '10px'}}>Book now</div>
       </div>
-    </>
+    </div>
   )
 }
 
