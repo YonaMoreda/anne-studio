@@ -42,7 +42,7 @@ const clockForHouseMesh = new THREE.Clock();
 const controls = new OrbitControls(camera, renderer.domElement);
 
 const gltfLoader = new GLTFLoader();
-gltfLoader.load('/anne-studio/public/assets/house/scene.gltf', (gltfScene) => {
+gltfLoader.load('assets/house/scene.gltf', (gltfScene) => {
     houseModelGroup = gltfScene.scene;
     houseModelGroup.position.set(3, -5, 0);
     houseModelGroup.scale.set(1, 1, 1);
